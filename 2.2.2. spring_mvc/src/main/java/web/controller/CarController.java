@@ -21,6 +21,7 @@ public class CarController {
     public String carView(@RequestParam(defaultValue = "5") int count, Model model) {
 
         List<Car> carList = returnQuantityCars.returnCars(count);
+
         model.addAttribute("Cars", carList);
 
         return "cars";
