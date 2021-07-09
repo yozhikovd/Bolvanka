@@ -1,4 +1,4 @@
-package web.classes;
+package web.model;
 
 public class Car {
 
